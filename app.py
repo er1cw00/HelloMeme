@@ -238,4 +238,4 @@ with gr.Blocks() as app:
             cache_examples=False,
         )
 
-app.launch(inbrowser=True)
+app.launch(inbrowser=True, share=True)
